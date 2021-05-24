@@ -1,0 +1,66 @@
+body{
+    
+    background-color: white;
+}
+.image{
+  display: block; 
+  margin: auto;
+  width: 100px;
+  height: 100px;
+
+}
+.chat{
+    max-width: 1000px;
+    margin: auto;
+    border: 5px solid black;
+    height: 50vh;
+    padding: 30px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgb(247, 225, 156), rgb(212, 148, 164));
+
+}
+
+.message{
+    background-color: rgb(56, 30, 50);
+    width: 40%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+
+#send{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+
+}
+#messageInput{
+    width: 92%;
+    border: 2px solid black;
+    height: 40px;
+}
+
+.btnSend{
+    cursor: pointer;
+    border: 2px solid black;
+    height: 40px;
+
+
+}
+
